@@ -6,9 +6,18 @@ using System.Threading.Tasks;
 
 namespace OracleHR.Models.dbModels
 {
+    /// <summary>  
+    /// Region  
+    /// </summary>  
     public class Region
     {
+        /// <summary>  
+        /// Region Id  
+        /// </summary>  
         public int RegionId { get; set; }
+        /// <summary>  
+        /// Region Name  
+        /// </summary>  
         public string RegionName { get; set; }
     }
 }

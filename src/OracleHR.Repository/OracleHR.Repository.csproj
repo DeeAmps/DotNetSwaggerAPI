@@ -60,6 +60,11 @@
   <ItemGroup>
     <Compile Include="conn\DBConnect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="repo\CountryRepository.cs" />
+    <Compile Include="repo\DepartmentRepository.cs" />
+    <Compile Include="repo\EmployeeRepository.cs" />
+    <Compile Include="repo\JobRepository.cs" />
+    <Compile Include="repo\LocationRepository.cs" />
     <Compile Include="repo\RegionRepository.cs" />
   </ItemGroup>
   <ItemGroup>
